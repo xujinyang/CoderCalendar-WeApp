@@ -1,0 +1,34 @@
+
+<!--index.wxml-->
+<view class="container">
+  <text class="date">{{today.today}}</text>
+  <view class="yiContainer">
+    <view class="yiTextContainer">
+      <text class="yi">宜</text>
+    </view>
+    <view class="yiItemContainer">
+      <view wx:for="{{today.goodList}}" wx:for-index="name" >
+        <view class="itemContainer ">
+          <text class="itemTitle ">{{item.name}}</text>
+          <text class="itemContent ">{{item.good}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="buyiContainer ">
+    <view class="buyiTextContainer ">
+      <text class="buyi ">不宜</text>
+    </view>
+    <view class="buyiItemContainer ">
+      <view wx:for="{{today.badList}}" wx:for-index="name">
+        <view class="itemContainer ">
+          <text class="itemTitle ">{{item.name}}</text>
+          <text class="itemContent ">{{item.good}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <text class="tag ">座位朝向：面向{{today.direction}}写程序，BUG 最少。</text>
+  <text class="tag ">今日宜饮：{{today.drinks}}</text>
+  <text class="tag ">女神亲近指数：{{today.stars}}</text>
+</view>

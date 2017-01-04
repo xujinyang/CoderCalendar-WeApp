@@ -1,0 +1,105 @@
+/**index.wxss**/
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+}
+
+.yiContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+
+.yiTextContainer {
+  display: flex;
+  width: 30%;
+  height: 100%;
+  background-color: #fe4;
+  justify-content: center;
+  align-items: center;
+}
+
+.yi {
+  font-size: 40px;
+  color: #000;
+}
+
+.yiItemContainer {
+  width: 70%;
+  display: flex;
+  background-color: #ffa;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15px;
+}
+
+.buyiContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  margin-bottom: 10px;
+}
+
+.buyiTextContainer {
+  display: flex;
+  width: 30%;
+  height: 100%;
+justify-content: center;
+  align-items: center;
+  background-color: #f44;
+}
+
+.buyi {
+  font-size: 40px;
+  color: #fff;
+}
+
+.buyiItemContainer {
+  width: 70%;
+  display: flex;
+  background-color: #ffddd3;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15px;
+
+}
+
+.itemTitle {
+font-size: 20px;
+  color: #000;
+}
+.itemContent{
+  font-size: 15px;
+  color: #7a7e7c;
+}
+
+.date{
+  background: #fff;
+  padding: 10px;
+  color: #000;
+  font-size: 20px;
+}
+.tag {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #000;
+  font-size: 15px;
+}
+.itemContainer{
+ display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-bottom:10px; 
+}
