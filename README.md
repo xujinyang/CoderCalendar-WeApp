@@ -1,5 +1,5 @@
-# CoderCalendar-weichat
-#程序猿老黄历 for wechat
+# CoderCalendar-WeApp
+#程序猿老黄历 for WeApp
 ![](http://p2.sinaimg.cn/3628432097/180/55361381830174)
 
 天牛星异位,败走天狼、日星月辉,雨星宫执事无法、天雷远渡洋江之北,风起云散,贵猿面堂发黑乌云盖顶有不祥之兆,带俺给你算上一挂。
