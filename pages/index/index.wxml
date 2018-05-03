@@ -23,7 +23,7 @@
       <view wx:for="{{today.badList}}" wx:for-index="name">
         <view class="itemContainer ">
           <text class="itemTitle ">{{item.name}}</text>
-          <text class="itemContent ">{{item.good}}</text>
+          <text class="itemContent ">{{item.bad}}</text>
         </view>
       </view>
     </view>
